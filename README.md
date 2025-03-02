@@ -5,3 +5,6 @@
 #### 系统：Windows11
 #### Python版本：3.12
 #### IDE：Visual Studio 2022
+
+#### trader api编译教程：https://blog.csdn.net/mdd2012/article/details/145290497
+#### mduser api编译教程：https://blog.csdn.net/mdd2012/article/details/145291662
