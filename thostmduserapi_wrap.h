@@ -17,7 +17,6 @@ class SwigDirector_CThostFtdcMdSpi : public CThostFtdcMdSpi, public Swig::Direct
 
 public:
     SwigDirector_CThostFtdcMdSpi(PyObject *self);
-    virtual ~SwigDirector_CThostFtdcMdSpi();
     virtual void OnFrontConnected();
     virtual void OnFrontDisconnected(int nReason);
     virtual void OnHeartBeatWarning(int nTimeLapse);

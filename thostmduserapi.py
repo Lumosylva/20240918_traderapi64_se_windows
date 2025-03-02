@@ -11618,7 +11618,6 @@ _thostmduserapi.CThostFtdcFrontInfoField_swigregister(CThostFtdcFrontInfoField)
 class CThostFtdcMdSpi(object):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
-    __swig_destroy__ = _thostmduserapi.delete_CThostFtdcMdSpi
 
     def OnFrontConnected(self):
         return _thostmduserapi.CThostFtdcMdSpi_OnFrontConnected(self)
