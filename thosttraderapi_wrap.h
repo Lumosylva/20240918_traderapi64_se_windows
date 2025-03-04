@@ -17,7 +17,6 @@ class SwigDirector_CThostFtdcTraderSpi : public CThostFtdcTraderSpi, public Swig
 
 public:
     SwigDirector_CThostFtdcTraderSpi(PyObject *self);
-    virtual ~SwigDirector_CThostFtdcTraderSpi();
     virtual void OnFrontConnected();
     virtual void OnFrontDisconnected(int nReason);
     virtual void OnHeartBeatWarning(int nTimeLapse);

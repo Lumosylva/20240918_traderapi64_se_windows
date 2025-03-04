@@ -12093,6 +12093,7 @@ class CThostFtdcTraderSpi(object):
         else:
             _self = self
         _thosttraderapi.CThostFtdcTraderSpi_swiginit(self, _thosttraderapi.new_CThostFtdcTraderSpi(_self, ))
+    __swig_destroy__ = _thosttraderapi.delete_CThostFtdcTraderSpi
     def __disown__(self):
         self.this.disown()
         _thosttraderapi.disown_CThostFtdcTraderSpi(self)

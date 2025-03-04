@@ -37,7 +37,6 @@ const static locale g_loc("zh_CN.GB18030");
     }
 }
 %feature("director") CThostFtdcTraderSpi; 
-%ignore CThostFtdcTraderSpi::~CThostFtdcTraderSpi;
 %ignore THOST_FTDC_VTC_BankBankToFuture;
 %ignore THOST_FTDC_VTC_BankFutureToBank;
 %ignore THOST_FTDC_VTC_FutureBankToFuture;
@@ -46,6 +45,7 @@ const static locale g_loc("zh_CN.GB18030");
 %ignore THOST_FTDC_FTC_BrokerLaunchBankToBroker;
 %ignore THOST_FTDC_FTC_BankLaunchBrokerToBank;
 %ignore THOST_FTDC_FTC_BrokerLaunchBrokerToBank;  
+%feature("director") CThostFtdcTraderSpi; 
 %include "ThostFtdcUserApiDataType.h"
 %include "ThostFtdcUserApiStruct.h" 
 %include "ThostFtdcTraderApi.h"
