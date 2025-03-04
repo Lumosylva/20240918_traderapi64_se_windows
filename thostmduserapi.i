@@ -37,7 +37,6 @@ const static locale g_loc("zh_CN.GB18030");
     }
 }
 %feature("director") CThostFtdcMdSpi;
-%ignore CThostFtdcMdSpi::~CThostFtdcMdSpi;
 %ignore THOST_FTDC_VTC_BankBankToFuture;
 %ignore THOST_FTDC_VTC_BankFutureToBank;
 %ignore THOST_FTDC_VTC_FutureBankToFuture;

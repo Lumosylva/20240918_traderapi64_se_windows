@@ -11664,6 +11664,7 @@ class CThostFtdcMdSpi(object):
         else:
             _self = self
         _thostmduserapi.CThostFtdcMdSpi_swiginit(self, _thostmduserapi.new_CThostFtdcMdSpi(_self, ))
+    __swig_destroy__ = _thostmduserapi.delete_CThostFtdcMdSpi
     def __disown__(self):
         self.this.disown()
         _thostmduserapi.disown_CThostFtdcMdSpi(self)
